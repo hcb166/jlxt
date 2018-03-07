@@ -10,6 +10,19 @@ public class MainActivity extends ReactActivity {
     protected void onCreate(Bundle savedInstanceState) {
         SplashScreen.show(this);  // here
         super.onCreate(savedInstanceState);
+
+
+        // setContentView(R.layout.activity_main);
+
+        // mSendButton = (Button) findViewById(R.id.btn_send);
+        // mSendButton.setOnClickListener(new OnClickListener() {
+        //     @Override
+        //     public void onClick(View v) {
+        //         //点击的时候发送一条广播出去
+        //         Intent intent = new Intent("THIS_IS");
+        //         sendBroadcast(intent);
+        //     }
+        // });
     }
 
     /**

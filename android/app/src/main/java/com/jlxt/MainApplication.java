@@ -1,5 +1,7 @@
 package com.jlxt;
 
+import com.jlxt.AScanPackage;
+
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
@@ -32,7 +34,9 @@ public class MainApplication extends Application implements ReactApplication {
             new VectorIconsPackage(),
             new SplashScreenReactPackage(),
             new PickerViewPackage(),
-            new ImagePickerPackage()
+            new ImagePickerPackage(),
+
+            new AScanPackage()
       );
     }
   };
